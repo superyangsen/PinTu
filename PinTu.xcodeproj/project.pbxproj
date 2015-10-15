@@ -1,0 +1,1018 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0516604B1BCE55FB00686D80 /* WYStartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0516604A1BCE55FB00686D80 /* WYStartViewController.m */; settings = {ASSET_TAGS = (); }; };
+		0593CD471BCDE4A800EC530A /* navi_back.png in Resources */ = {isa = PBXBuildFile; fileRef = 0593CD061BCDE4A800EC530A /* navi_back.png */; settings = {ASSET_TAGS = (); }; };
+		0593CD481BCDE4A800EC530A /* navi_back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0593CD071BCDE4A800EC530A /* navi_back@2x.png */; settings = {ASSET_TAGS = (); }; };
+		0593CD491BCDE4A800EC530A /* 0000.娇媚.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0593CD091BCDE4A800EC530A /* 0000.娇媚.jpg */; settings = {ASSET_TAGS = (); }; };
+		0593CD4A1BCDE4A800EC530A /* 0001.半遮脸.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0593CD0A1BCDE4A800EC530A /* 0001.半遮脸.jpg */; settings = {ASSET_TAGS = (); }; };
+		0593CD4B1BCDE4A800EC530A /* 0002.含指.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0593CD0B1BCDE4A800EC530A /* 0002.含指.jpg */; settings = {ASSET_TAGS = (); }; };
+		0593CD4C1BCDE4A800EC530A /* 0003.林志玲.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0593CD0C1BCDE4A800EC530A /* 0003.林志玲.jpg */; settings = {ASSET_TAGS = (); }; };
+		0593CD4D1BCDE4A800EC530A /* 0004.车模.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0593CD0D1BCDE4A800EC530A /* 0004.车模.jpg */; settings = {ASSET_TAGS = (); }; };
+		0593CD4E1BCDE4A800EC530A /* 0005.冰冰.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0593CD0E1BCDE4A800EC530A /* 0005.冰冰.jpg */; settings = {ASSET_TAGS = (); }; };
+		0593CD4F1BCDE4A800EC530A /* 0006.短牛仔.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0593CD0F1BCDE4A800EC530A /* 0006.短牛仔.jpg */; settings = {ASSET_TAGS = (); }; };
+		0593CD501BCDE4A800EC530A /* 0007.高雅.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0593CD101BCDE4A800EC530A /* 0007.高雅.jpg */; settings = {ASSET_TAGS = (); }; };
+		0593CD511BCDE4A800EC530A /* 0008.西洋美女.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0593CD111BCDE4A800EC530A /* 0008.西洋美女.jpg */; settings = {ASSET_TAGS = (); }; };
+		0593CD521BCDE4A800EC530A /* 0009.可爱.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0593CD121BCDE4A800EC530A /* 0009.可爱.jpg */; settings = {ASSET_TAGS = (); }; };
+		0593CD531BCDE4A800EC530A /* 0010.awer.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0593CD131BCDE4A800EC530A /* 0010.awer.jpg */; settings = {ASSET_TAGS = (); }; };
+		0593CD541BCDE4A800EC530A /* 0011.车模.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0593CD141BCDE4A800EC530A /* 0011.车模.jpg */; settings = {ASSET_TAGS = (); }; };
+		0593CD551BCDE4A800EC530A /* 0012.西洋红女.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0593CD151BCDE4A800EC530A /* 0012.西洋红女.jpg */; settings = {ASSET_TAGS = (); }; };
+		0593CD561BCDE4A800EC530A /* 0013.冰冰.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0593CD161BCDE4A800EC530A /* 0013.冰冰.jpg */; settings = {ASSET_TAGS = (); }; };
+		0593CD571BCDE4A800EC530A /* 0014.苍井空1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0593CD171BCDE4A800EC530A /* 0014.苍井空1.jpg */; settings = {ASSET_TAGS = (); }; };
+		0593CD581BCDE4A800EC530A /* 0015.凃唇.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0593CD181BCDE4A800EC530A /* 0015.凃唇.jpg */; settings = {ASSET_TAGS = (); }; };
+		0593CD591BCDE4A800EC530A /* 0016.shishi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0593CD191BCDE4A800EC530A /* 0016.shishi.jpg */; settings = {ASSET_TAGS = (); }; };
+		0593CD5A1BCDE4A800EC530A /* 0017.白鸽.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0593CD1A1BCDE4A800EC530A /* 0017.白鸽.jpg */; settings = {ASSET_TAGS = (); }; };
+		0593CD5B1BCDE4A800EC530A /* 0018.萝莉2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0593CD1B1BCDE4A800EC530A /* 0018.萝莉2.jpg */; settings = {ASSET_TAGS = (); }; };
+		0593CD5C1BCDE4A800EC530A /* 0019.清纯.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0593CD1C1BCDE4A800EC530A /* 0019.清纯.jpg */; settings = {ASSET_TAGS = (); }; };
+		0593CD5D1BCDE4A800EC530A /* 0020.韩国.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0593CD1D1BCDE4A800EC530A /* 0020.韩国.jpg */; settings = {ASSET_TAGS = (); }; };
+		0593CD5E1BCDE4A800EC530A /* 0021.白衣.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0593CD1E1BCDE4A800EC530A /* 0021.白衣.jpg */; settings = {ASSET_TAGS = (); }; };
+		0593CD5F1BCDE4A800EC530A /* 0022.摄影.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0593CD1F1BCDE4A800EC530A /* 0022.摄影.jpg */; settings = {ASSET_TAGS = (); }; };
+		0593CD601BCDE4A800EC530A /* 0023.车模.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0593CD201BCDE4A800EC530A /* 0023.车模.jpg */; settings = {ASSET_TAGS = (); }; };
+		0593CD611BCDE4A800EC530A /* 0024.古典.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0593CD211BCDE4A800EC530A /* 0024.古典.jpg */; settings = {ASSET_TAGS = (); }; };
+		0593CD621BCDE4A800EC530A /* 0025.粉嫩可爱.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0593CD221BCDE4A800EC530A /* 0025.粉嫩可爱.jpg */; settings = {ASSET_TAGS = (); }; };
+		0593CD631BCDE4A800EC530A /* 0026.西洋.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0593CD231BCDE4A800EC530A /* 0026.西洋.jpg */; settings = {ASSET_TAGS = (); }; };
+		0593CD641BCDE4A800EC530A /* 0027.dance.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0593CD241BCDE4A800EC530A /* 0027.dance.jpg */; settings = {ASSET_TAGS = (); }; };
+		0593CD651BCDE4A800EC530A /* 0028.fwq.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0593CD251BCDE4A800EC530A /* 0028.fwq.jpg */; settings = {ASSET_TAGS = (); }; };
+		0593CD661BCDE4A800EC530A /* 0029.人比花艳.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0593CD261BCDE4A800EC530A /* 0029.人比花艳.jpg */; settings = {ASSET_TAGS = (); }; };
+		0593CD671BCDE4A800EC530A /* 0030.高圆圆.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0593CD271BCDE4A800EC530A /* 0030.高圆圆.jpg */; settings = {ASSET_TAGS = (); }; };
+		0593CD681BCDE4A800EC530A /* 0031.朋克女.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0593CD281BCDE4A800EC530A /* 0031.朋克女.jpg */; settings = {ASSET_TAGS = (); }; };
+		0593CD691BCDE4A800EC530A /* 0032.半遮眼.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0593CD291BCDE4A800EC530A /* 0032.半遮眼.jpg */; settings = {ASSET_TAGS = (); }; };
+		0593CD6A1BCDE4A800EC530A /* 0033.Scarlett Johansson.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0593CD2A1BCDE4A800EC530A /* 0033.Scarlett Johansson.jpg */; settings = {ASSET_TAGS = (); }; };
+		0593CD6B1BCDE4A800EC530A /* 0034.laugh.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0593CD2B1BCDE4A800EC530A /* 0034.laugh.jpg */; settings = {ASSET_TAGS = (); }; };
+		0593CD6C1BCDE4A800EC530A /* 0035.街道.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0593CD2C1BCDE4A800EC530A /* 0035.街道.jpg */; settings = {ASSET_TAGS = (); }; };
+		0593CD6D1BCDE4A800EC530A /* 0036.LadyGaga.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0593CD2D1BCDE4A800EC530A /* 0036.LadyGaga.jpg */; settings = {ASSET_TAGS = (); }; };
+		0593CD6E1BCDE4A800EC530A /* 0037.Taylor Swift.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0593CD2E1BCDE4A800EC530A /* 0037.Taylor Swift.jpg */; settings = {ASSET_TAGS = (); }; };
+		0593CD6F1BCDE4A800EC530A /* 0038.angleBaby.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0593CD2F1BCDE4A800EC530A /* 0038.angleBaby.jpg */; settings = {ASSET_TAGS = (); }; };
+		0593CD701BCDE4A800EC530A /* 0039.章子怡.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0593CD301BCDE4A800EC530A /* 0039.章子怡.jpg */; settings = {ASSET_TAGS = (); }; };
+		0593CD711BCDE4A800EC530A /* 0040.西洋.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0593CD311BCDE4A800EC530A /* 0040.西洋.jpg */; settings = {ASSET_TAGS = (); }; };
+		0593CD721BCDE4A800EC530A /* 0041.菊花.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0593CD321BCDE4A800EC530A /* 0041.菊花.jpg */; settings = {ASSET_TAGS = (); }; };
+		0593CD731BCDE4A800EC530A /* 0042.白衣.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0593CD331BCDE4A800EC530A /* 0042.白衣.jpg */; settings = {ASSET_TAGS = (); }; };
+		0593CD741BCDE4A800EC530A /* 0043.闻花.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0593CD341BCDE4A800EC530A /* 0043.闻花.jpg */; settings = {ASSET_TAGS = (); }; };
+		0593CD751BCDE4A800EC530A /* 0044.屋顶.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0593CD351BCDE4A800EC530A /* 0044.屋顶.jpg */; settings = {ASSET_TAGS = (); }; };
+		0593CD761BCDE4A800EC530A /* 0045.邻家女孩.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0593CD361BCDE4A800EC530A /* 0045.邻家女孩.jpg */; settings = {ASSET_TAGS = (); }; };
+		0593CD771BCDE4A800EC530A /* 0046.sweet.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0593CD371BCDE4A800EC530A /* 0046.sweet.jpg */; settings = {ASSET_TAGS = (); }; };
+		0593CD781BCDE4A800EC530A /* 0047.车模.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0593CD381BCDE4A800EC530A /* 0047.车模.jpg */; settings = {ASSET_TAGS = (); }; };
+		0593CD791BCDE4A800EC530A /* 0048.允儿.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0593CD391BCDE4A800EC530A /* 0048.允儿.jpg */; settings = {ASSET_TAGS = (); }; };
+		0593CD7A1BCDE4A800EC530A /* 0049.西洋.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0593CD3A1BCDE4A800EC530A /* 0049.西洋.jpg */; settings = {ASSET_TAGS = (); }; };
+		0593CD7B1BCDE4A800EC530A /* 0050.韩国车模.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0593CD3B1BCDE4A800EC530A /* 0050.韩国车模.jpg */; settings = {ASSET_TAGS = (); }; };
+		0593CD7C1BCDE4A800EC530A /* 0051.水手.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0593CD3C1BCDE4A800EC530A /* 0051.水手.jpg */; settings = {ASSET_TAGS = (); }; };
+		0593CD7D1BCDE4A800EC530A /* 0052.长椅.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0593CD3D1BCDE4A800EC530A /* 0052.长椅.jpg */; settings = {ASSET_TAGS = (); }; };
+		0593CD7E1BCDE4A800EC530A /* 0053.微笑.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0593CD3E1BCDE4A800EC530A /* 0053.微笑.jpg */; settings = {ASSET_TAGS = (); }; };
+		0593CD7F1BCDE4A800EC530A /* 0054.zhaowei.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0593CD3F1BCDE4A800EC530A /* 0054.zhaowei.jpg */; settings = {ASSET_TAGS = (); }; };
+		0593CD801BCDE4A800EC530A /* 0055.公主裙.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0593CD401BCDE4A800EC530A /* 0055.公主裙.jpg */; settings = {ASSET_TAGS = (); }; };
+		0593CD811BCDE4A800EC530A /* 0056.车模.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0593CD411BCDE4A800EC530A /* 0056.车模.jpg */; settings = {ASSET_TAGS = (); }; };
+		0593CD821BCDE4A800EC530A /* 0057.娇俏.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0593CD421BCDE4A800EC530A /* 0057.娇俏.jpg */; settings = {ASSET_TAGS = (); }; };
+		0593CD831BCDE4A800EC530A /* 0058.娇俏.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0593CD431BCDE4A800EC530A /* 0058.娇俏.jpg */; settings = {ASSET_TAGS = (); }; };
+		0593CD841BCDE4A800EC530A /* 0059.徐若瑄.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0593CD441BCDE4A800EC530A /* 0059.徐若瑄.jpg */; settings = {ASSET_TAGS = (); }; };
+		0593CD851BCDE4A800EC530A /* 0060.李贞贤.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0593CD451BCDE4A800EC530A /* 0060.李贞贤.jpg */; settings = {ASSET_TAGS = (); }; };
+		0593CD861BCDE4A800EC530A /* um_headview_placeholder@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0593CD461BCDE4A800EC530A /* um_headview_placeholder@2x.jpg */; settings = {ASSET_TAGS = (); }; };
+		0593CD881BCDE7E300EC530A /* GamePhoto.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0593CD871BCDE7E300EC530A /* GamePhoto.plist */; settings = {ASSET_TAGS = (); }; };
+		0597CDEE1BCB5C70004E9108 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0597CDED1BCB5C70004E9108 /* main.m */; };
+		0597CDF11BCB5C70004E9108 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0597CDF01BCB5C70004E9108 /* AppDelegate.m */; };
+		0597CDF41BCB5C70004E9108 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0597CDF31BCB5C70004E9108 /* ViewController.m */; };
+		0597CDF71BCB5C70004E9108 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0597CDF51BCB5C70004E9108 /* Main.storyboard */; };
+		0597CDFA1BCB5C70004E9108 /* PinTu.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0597CDF81BCB5C70004E9108 /* PinTu.xcdatamodeld */; };
+		0597CDFC1BCB5C70004E9108 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0597CDFB1BCB5C70004E9108 /* Assets.xcassets */; };
+		0597CDFF1BCB5C70004E9108 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0597CDFD1BCB5C70004E9108 /* LaunchScreen.storyboard */; };
+		0597CE0A1BCB5C70004E9108 /* PinTuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0597CE091BCB5C70004E9108 /* PinTuTests.m */; };
+		0597CE151BCB5C70004E9108 /* PinTuUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0597CE141BCB5C70004E9108 /* PinTuUITests.m */; };
+		0597CE341BCB8106004E9108 /* UIImage+SubImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0597CE331BCB8106004E9108 /* UIImage+SubImage.m */; settings = {ASSET_TAGS = (); }; };
+		0597CE391BCB82D5004E9108 /* WYBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0597CE381BCB82D5004E9108 /* WYBaseViewController.m */; settings = {ASSET_TAGS = (); }; };
+		0597CE3D1BCB8427004E9108 /* Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0597CE3C1BCB8427004E9108 /* Helper.m */; settings = {ASSET_TAGS = (); }; };
+		0597CE421BCB89BA004E9108 /* WYHomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0597CE411BCB89BA004E9108 /* WYHomePageViewController.m */; settings = {ASSET_TAGS = (); }; };
+		0597CE4D1BCB89D6004E9108 /* ALView+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 0597CE451BCB89D6004E9108 /* ALView+PureLayout.m */; settings = {ASSET_TAGS = (); }; };
+		0597CE4E1BCB89D6004E9108 /* NSArray+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 0597CE471BCB89D6004E9108 /* NSArray+PureLayout.m */; settings = {ASSET_TAGS = (); }; };
+		0597CE4F1BCB89D6004E9108 /* NSLayoutConstraint+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 0597CE491BCB89D6004E9108 /* NSLayoutConstraint+PureLayout.m */; settings = {ASSET_TAGS = (); }; };
+		05C5346F1BCB94AC00BE80B6 /* WYMainGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05C5346E1BCB94AC00BE80B6 /* WYMainGameViewController.m */; settings = {ASSET_TAGS = (); }; };
+		05C534721BCB984B00BE80B6 /* WYGameImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 05C534711BCB984B00BE80B6 /* WYGameImageView.m */; settings = {ASSET_TAGS = (); }; };
+		05C534761BCBB5D800BE80B6 /* WYSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05C534751BCBB5D800BE80B6 /* WYSettingViewController.m */; settings = {ASSET_TAGS = (); }; };
+		05C5347E1BCBB91400BE80B6 /* WYGameLevelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05C5347D1BCBB91400BE80B6 /* WYGameLevelViewController.m */; settings = {ASSET_TAGS = (); }; };
+		05C68FCE1BCDFD7700C57054 /* WYGameLevelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 05C68FCD1BCDFD7700C57054 /* WYGameLevelCell.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0597CE061BCB5C70004E9108 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0597CDE11BCB5C70004E9108 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0597CDE81BCB5C70004E9108;
+			remoteInfo = PinTu;
+		};
+		0597CE111BCB5C70004E9108 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0597CDE11BCB5C70004E9108 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0597CDE81BCB5C70004E9108;
+			remoteInfo = PinTu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		051660491BCE55FB00686D80 /* WYStartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYStartViewController.h; sourceTree = "<group>"; };
+		0516604A1BCE55FB00686D80 /* WYStartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYStartViewController.m; sourceTree = "<group>"; };
+		0593CD061BCDE4A800EC530A /* navi_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navi_back.png; sourceTree = "<group>"; };
+		0593CD071BCDE4A800EC530A /* navi_back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navi_back@2x.png"; sourceTree = "<group>"; };
+		0593CD091BCDE4A800EC530A /* 0000.娇媚.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "0000.娇媚.jpg"; sourceTree = "<group>"; };
+		0593CD0A1BCDE4A800EC530A /* 0001.半遮脸.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "0001.半遮脸.jpg"; sourceTree = "<group>"; };
+		0593CD0B1BCDE4A800EC530A /* 0002.含指.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "0002.含指.jpg"; sourceTree = "<group>"; };
+		0593CD0C1BCDE4A800EC530A /* 0003.林志玲.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "0003.林志玲.jpg"; sourceTree = "<group>"; };
+		0593CD0D1BCDE4A800EC530A /* 0004.车模.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "0004.车模.jpg"; sourceTree = "<group>"; };
+		0593CD0E1BCDE4A800EC530A /* 0005.冰冰.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "0005.冰冰.jpg"; sourceTree = "<group>"; };
+		0593CD0F1BCDE4A800EC530A /* 0006.短牛仔.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "0006.短牛仔.jpg"; sourceTree = "<group>"; };
+		0593CD101BCDE4A800EC530A /* 0007.高雅.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "0007.高雅.jpg"; sourceTree = "<group>"; };
+		0593CD111BCDE4A800EC530A /* 0008.西洋美女.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "0008.西洋美女.jpg"; sourceTree = "<group>"; };
+		0593CD121BCDE4A800EC530A /* 0009.可爱.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "0009.可爱.jpg"; sourceTree = "<group>"; };
+		0593CD131BCDE4A800EC530A /* 0010.awer.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0010.awer.jpg; sourceTree = "<group>"; };
+		0593CD141BCDE4A800EC530A /* 0011.车模.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "0011.车模.jpg"; sourceTree = "<group>"; };
+		0593CD151BCDE4A800EC530A /* 0012.西洋红女.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "0012.西洋红女.jpg"; sourceTree = "<group>"; };
+		0593CD161BCDE4A800EC530A /* 0013.冰冰.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "0013.冰冰.jpg"; sourceTree = "<group>"; };
+		0593CD171BCDE4A800EC530A /* 0014.苍井空1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "0014.苍井空1.jpg"; sourceTree = "<group>"; };
+		0593CD181BCDE4A800EC530A /* 0015.凃唇.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "0015.凃唇.jpg"; sourceTree = "<group>"; };
+		0593CD191BCDE4A800EC530A /* 0016.shishi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0016.shishi.jpg; sourceTree = "<group>"; };
+		0593CD1A1BCDE4A800EC530A /* 0017.白鸽.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "0017.白鸽.jpg"; sourceTree = "<group>"; };
+		0593CD1B1BCDE4A800EC530A /* 0018.萝莉2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "0018.萝莉2.jpg"; sourceTree = "<group>"; };
+		0593CD1C1BCDE4A800EC530A /* 0019.清纯.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "0019.清纯.jpg"; sourceTree = "<group>"; };
+		0593CD1D1BCDE4A800EC530A /* 0020.韩国.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "0020.韩国.jpg"; sourceTree = "<group>"; };
+		0593CD1E1BCDE4A800EC530A /* 0021.白衣.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "0021.白衣.jpg"; sourceTree = "<group>"; };
+		0593CD1F1BCDE4A800EC530A /* 0022.摄影.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "0022.摄影.jpg"; sourceTree = "<group>"; };
+		0593CD201BCDE4A800EC530A /* 0023.车模.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "0023.车模.jpg"; sourceTree = "<group>"; };
+		0593CD211BCDE4A800EC530A /* 0024.古典.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "0024.古典.jpg"; sourceTree = "<group>"; };
+		0593CD221BCDE4A800EC530A /* 0025.粉嫩可爱.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "0025.粉嫩可爱.jpg"; sourceTree = "<group>"; };
+		0593CD231BCDE4A800EC530A /* 0026.西洋.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "0026.西洋.jpg"; sourceTree = "<group>"; };
+		0593CD241BCDE4A800EC530A /* 0027.dance.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0027.dance.jpg; sourceTree = "<group>"; };
+		0593CD251BCDE4A800EC530A /* 0028.fwq.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0028.fwq.jpg; sourceTree = "<group>"; };
+		0593CD261BCDE4A800EC530A /* 0029.人比花艳.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "0029.人比花艳.jpg"; sourceTree = "<group>"; };
+		0593CD271BCDE4A800EC530A /* 0030.高圆圆.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "0030.高圆圆.jpg"; sourceTree = "<group>"; };
+		0593CD281BCDE4A800EC530A /* 0031.朋克女.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "0031.朋克女.jpg"; sourceTree = "<group>"; };
+		0593CD291BCDE4A800EC530A /* 0032.半遮眼.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "0032.半遮眼.jpg"; sourceTree = "<group>"; };
+		0593CD2A1BCDE4A800EC530A /* 0033.Scarlett Johansson.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "0033.Scarlett Johansson.jpg"; sourceTree = "<group>"; };
+		0593CD2B1BCDE4A800EC530A /* 0034.laugh.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0034.laugh.jpg; sourceTree = "<group>"; };
+		0593CD2C1BCDE4A800EC530A /* 0035.街道.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "0035.街道.jpg"; sourceTree = "<group>"; };
+		0593CD2D1BCDE4A800EC530A /* 0036.LadyGaga.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0036.LadyGaga.jpg; sourceTree = "<group>"; };
+		0593CD2E1BCDE4A800EC530A /* 0037.Taylor Swift.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "0037.Taylor Swift.jpg"; sourceTree = "<group>"; };
+		0593CD2F1BCDE4A800EC530A /* 0038.angleBaby.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0038.angleBaby.jpg; sourceTree = "<group>"; };
+		0593CD301BCDE4A800EC530A /* 0039.章子怡.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "0039.章子怡.jpg"; sourceTree = "<group>"; };
+		0593CD311BCDE4A800EC530A /* 0040.西洋.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "0040.西洋.jpg"; sourceTree = "<group>"; };
+		0593CD321BCDE4A800EC530A /* 0041.菊花.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "0041.菊花.jpg"; sourceTree = "<group>"; };
+		0593CD331BCDE4A800EC530A /* 0042.白衣.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "0042.白衣.jpg"; sourceTree = "<group>"; };
+		0593CD341BCDE4A800EC530A /* 0043.闻花.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "0043.闻花.jpg"; sourceTree = "<group>"; };
+		0593CD351BCDE4A800EC530A /* 0044.屋顶.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "0044.屋顶.jpg"; sourceTree = "<group>"; };
+		0593CD361BCDE4A800EC530A /* 0045.邻家女孩.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "0045.邻家女孩.jpg"; sourceTree = "<group>"; };
+		0593CD371BCDE4A800EC530A /* 0046.sweet.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0046.sweet.jpg; sourceTree = "<group>"; };
+		0593CD381BCDE4A800EC530A /* 0047.车模.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "0047.车模.jpg"; sourceTree = "<group>"; };
+		0593CD391BCDE4A800EC530A /* 0048.允儿.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "0048.允儿.jpg"; sourceTree = "<group>"; };
+		0593CD3A1BCDE4A800EC530A /* 0049.西洋.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "0049.西洋.jpg"; sourceTree = "<group>"; };
+		0593CD3B1BCDE4A800EC530A /* 0050.韩国车模.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "0050.韩国车模.jpg"; sourceTree = "<group>"; };
+		0593CD3C1BCDE4A800EC530A /* 0051.水手.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "0051.水手.jpg"; sourceTree = "<group>"; };
+		0593CD3D1BCDE4A800EC530A /* 0052.长椅.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "0052.长椅.jpg"; sourceTree = "<group>"; };
+		0593CD3E1BCDE4A800EC530A /* 0053.微笑.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "0053.微笑.jpg"; sourceTree = "<group>"; };
+		0593CD3F1BCDE4A800EC530A /* 0054.zhaowei.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0054.zhaowei.jpg; sourceTree = "<group>"; };
+		0593CD401BCDE4A800EC530A /* 0055.公主裙.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "0055.公主裙.jpg"; sourceTree = "<group>"; };
+		0593CD411BCDE4A800EC530A /* 0056.车模.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "0056.车模.jpg"; sourceTree = "<group>"; };
+		0593CD421BCDE4A800EC530A /* 0057.娇俏.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "0057.娇俏.jpg"; sourceTree = "<group>"; };
+		0593CD431BCDE4A800EC530A /* 0058.娇俏.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "0058.娇俏.jpg"; sourceTree = "<group>"; };
+		0593CD441BCDE4A800EC530A /* 0059.徐若瑄.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "0059.徐若瑄.jpg"; sourceTree = "<group>"; };
+		0593CD451BCDE4A800EC530A /* 0060.李贞贤.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "0060.李贞贤.jpg"; sourceTree = "<group>"; };
+		0593CD461BCDE4A800EC530A /* um_headview_placeholder@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "um_headview_placeholder@2x.jpg"; sourceTree = "<group>"; };
+		0593CD871BCDE7E300EC530A /* GamePhoto.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = GamePhoto.plist; sourceTree = "<group>"; };
+		0597CDE91BCB5C70004E9108 /* PinTu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PinTu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0597CDED1BCB5C70004E9108 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0597CDEF1BCB5C70004E9108 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0597CDF01BCB5C70004E9108 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0597CDF21BCB5C70004E9108 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0597CDF31BCB5C70004E9108 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0597CDF61BCB5C70004E9108 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0597CDF91BCB5C70004E9108 /* PinTu.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PinTu.xcdatamodel; sourceTree = "<group>"; };
+		0597CDFB1BCB5C70004E9108 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0597CDFE1BCB5C70004E9108 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0597CE001BCB5C70004E9108 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0597CE051BCB5C70004E9108 /* PinTuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PinTuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0597CE091BCB5C70004E9108 /* PinTuTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PinTuTests.m; sourceTree = "<group>"; };
+		0597CE0B1BCB5C70004E9108 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0597CE101BCB5C70004E9108 /* PinTuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PinTuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0597CE141BCB5C70004E9108 /* PinTuUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PinTuUITests.m; sourceTree = "<group>"; };
+		0597CE161BCB5C70004E9108 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0597CE321BCB8106004E9108 /* UIImage+SubImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+SubImage.h"; sourceTree = "<group>"; };
+		0597CE331BCB8106004E9108 /* UIImage+SubImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+SubImage.m"; sourceTree = "<group>"; };
+		0597CE371BCB82D5004E9108 /* WYBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYBaseViewController.h; sourceTree = "<group>"; };
+		0597CE381BCB82D5004E9108 /* WYBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYBaseViewController.m; sourceTree = "<group>"; };
+		0597CE3B1BCB8427004E9108 /* Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Helper.h; sourceTree = "<group>"; };
+		0597CE3C1BCB8427004E9108 /* Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Helper.m; sourceTree = "<group>"; };
+		0597CE3E1BCB8451004E9108 /* Define.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Define.h; sourceTree = "<group>"; };
+		0597CE3F1BCB853E004E9108 /* PinTu-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PinTu-Prefix.pch"; sourceTree = "<group>"; };
+		0597CE401BCB89BA004E9108 /* WYHomePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYHomePageViewController.h; sourceTree = "<group>"; };
+		0597CE411BCB89BA004E9108 /* WYHomePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYHomePageViewController.m; sourceTree = "<group>"; };
+		0597CE441BCB89D6004E9108 /* ALView+PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ALView+PureLayout.h"; sourceTree = "<group>"; };
+		0597CE451BCB89D6004E9108 /* ALView+PureLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ALView+PureLayout.m"; sourceTree = "<group>"; };
+		0597CE461BCB89D6004E9108 /* NSArray+PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+PureLayout.h"; sourceTree = "<group>"; };
+		0597CE471BCB89D6004E9108 /* NSArray+PureLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+PureLayout.m"; sourceTree = "<group>"; };
+		0597CE481BCB89D6004E9108 /* NSLayoutConstraint+PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+PureLayout.h"; sourceTree = "<group>"; };
+		0597CE491BCB89D6004E9108 /* NSLayoutConstraint+PureLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+PureLayout.m"; sourceTree = "<group>"; };
+		0597CE4A1BCB89D6004E9108 /* PureLayout+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PureLayout+Internal.h"; sourceTree = "<group>"; };
+		0597CE4B1BCB89D6004E9108 /* PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PureLayout.h; sourceTree = "<group>"; };
+		0597CE4C1BCB89D6004E9108 /* PureLayoutDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PureLayoutDefines.h; sourceTree = "<group>"; };
+		05C5346D1BCB94AC00BE80B6 /* WYMainGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYMainGameViewController.h; sourceTree = "<group>"; };
+		05C5346E1BCB94AC00BE80B6 /* WYMainGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYMainGameViewController.m; sourceTree = "<group>"; };
+		05C534701BCB984B00BE80B6 /* WYGameImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYGameImageView.h; sourceTree = "<group>"; };
+		05C534711BCB984B00BE80B6 /* WYGameImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYGameImageView.m; sourceTree = "<group>"; };
+		05C534741BCBB5D800BE80B6 /* WYSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYSettingViewController.h; sourceTree = "<group>"; };
+		05C534751BCBB5D800BE80B6 /* WYSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYSettingViewController.m; sourceTree = "<group>"; };
+		05C5347C1BCBB91400BE80B6 /* WYGameLevelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYGameLevelViewController.h; sourceTree = "<group>"; };
+		05C5347D1BCBB91400BE80B6 /* WYGameLevelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYGameLevelViewController.m; sourceTree = "<group>"; };
+		05C68FCC1BCDFD7700C57054 /* WYGameLevelCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYGameLevelCell.h; sourceTree = "<group>"; };
+		05C68FCD1BCDFD7700C57054 /* WYGameLevelCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYGameLevelCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0597CDE61BCB5C70004E9108 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0597CE021BCB5C70004E9108 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0597CE0D1BCB5C70004E9108 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		051660481BCE55DE00686D80 /* Start */ = {
+			isa = PBXGroup;
+			children = (
+				051660491BCE55FB00686D80 /* WYStartViewController.h */,
+				0516604A1BCE55FB00686D80 /* WYStartViewController.m */,
+			);
+			path = Start;
+			sourceTree = "<group>";
+		};
+		0593CD051BCDE4A800EC530A /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				0593CD061BCDE4A800EC530A /* navi_back.png */,
+				0593CD071BCDE4A800EC530A /* navi_back@2x.png */,
+				0593CD081BCDE4A800EC530A /* photos */,
+				0593CD461BCDE4A800EC530A /* um_headview_placeholder@2x.jpg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		0593CD081BCDE4A800EC530A /* photos */ = {
+			isa = PBXGroup;
+			children = (
+				0593CD091BCDE4A800EC530A /* 0000.娇媚.jpg */,
+				0593CD0A1BCDE4A800EC530A /* 0001.半遮脸.jpg */,
+				0593CD0B1BCDE4A800EC530A /* 0002.含指.jpg */,
+				0593CD0C1BCDE4A800EC530A /* 0003.林志玲.jpg */,
+				0593CD0D1BCDE4A800EC530A /* 0004.车模.jpg */,
+				0593CD0E1BCDE4A800EC530A /* 0005.冰冰.jpg */,
+				0593CD0F1BCDE4A800EC530A /* 0006.短牛仔.jpg */,
+				0593CD101BCDE4A800EC530A /* 0007.高雅.jpg */,
+				0593CD111BCDE4A800EC530A /* 0008.西洋美女.jpg */,
+				0593CD121BCDE4A800EC530A /* 0009.可爱.jpg */,
+				0593CD131BCDE4A800EC530A /* 0010.awer.jpg */,
+				0593CD141BCDE4A800EC530A /* 0011.车模.jpg */,
+				0593CD151BCDE4A800EC530A /* 0012.西洋红女.jpg */,
+				0593CD161BCDE4A800EC530A /* 0013.冰冰.jpg */,
+				0593CD171BCDE4A800EC530A /* 0014.苍井空1.jpg */,
+				0593CD181BCDE4A800EC530A /* 0015.凃唇.jpg */,
+				0593CD191BCDE4A800EC530A /* 0016.shishi.jpg */,
+				0593CD1A1BCDE4A800EC530A /* 0017.白鸽.jpg */,
+				0593CD1B1BCDE4A800EC530A /* 0018.萝莉2.jpg */,
+				0593CD1C1BCDE4A800EC530A /* 0019.清纯.jpg */,
+				0593CD1D1BCDE4A800EC530A /* 0020.韩国.jpg */,
+				0593CD1E1BCDE4A800EC530A /* 0021.白衣.jpg */,
+				0593CD1F1BCDE4A800EC530A /* 0022.摄影.jpg */,
+				0593CD201BCDE4A800EC530A /* 0023.车模.jpg */,
+				0593CD211BCDE4A800EC530A /* 0024.古典.jpg */,
+				0593CD221BCDE4A800EC530A /* 0025.粉嫩可爱.jpg */,
+				0593CD231BCDE4A800EC530A /* 0026.西洋.jpg */,
+				0593CD241BCDE4A800EC530A /* 0027.dance.jpg */,
+				0593CD251BCDE4A800EC530A /* 0028.fwq.jpg */,
+				0593CD261BCDE4A800EC530A /* 0029.人比花艳.jpg */,
+				0593CD271BCDE4A800EC530A /* 0030.高圆圆.jpg */,
+				0593CD281BCDE4A800EC530A /* 0031.朋克女.jpg */,
+				0593CD291BCDE4A800EC530A /* 0032.半遮眼.jpg */,
+				0593CD2A1BCDE4A800EC530A /* 0033.Scarlett Johansson.jpg */,
+				0593CD2B1BCDE4A800EC530A /* 0034.laugh.jpg */,
+				0593CD2C1BCDE4A800EC530A /* 0035.街道.jpg */,
+				0593CD2D1BCDE4A800EC530A /* 0036.LadyGaga.jpg */,
+				0593CD2E1BCDE4A800EC530A /* 0037.Taylor Swift.jpg */,
+				0593CD2F1BCDE4A800EC530A /* 0038.angleBaby.jpg */,
+				0593CD301BCDE4A800EC530A /* 0039.章子怡.jpg */,
+				0593CD311BCDE4A800EC530A /* 0040.西洋.jpg */,
+				0593CD321BCDE4A800EC530A /* 0041.菊花.jpg */,
+				0593CD331BCDE4A800EC530A /* 0042.白衣.jpg */,
+				0593CD341BCDE4A800EC530A /* 0043.闻花.jpg */,
+				0593CD351BCDE4A800EC530A /* 0044.屋顶.jpg */,
+				0593CD361BCDE4A800EC530A /* 0045.邻家女孩.jpg */,
+				0593CD371BCDE4A800EC530A /* 0046.sweet.jpg */,
+				0593CD381BCDE4A800EC530A /* 0047.车模.jpg */,
+				0593CD391BCDE4A800EC530A /* 0048.允儿.jpg */,
+				0593CD3A1BCDE4A800EC530A /* 0049.西洋.jpg */,
+				0593CD3B1BCDE4A800EC530A /* 0050.韩国车模.jpg */,
+				0593CD3C1BCDE4A800EC530A /* 0051.水手.jpg */,
+				0593CD3D1BCDE4A800EC530A /* 0052.长椅.jpg */,
+				0593CD3E1BCDE4A800EC530A /* 0053.微笑.jpg */,
+				0593CD3F1BCDE4A800EC530A /* 0054.zhaowei.jpg */,
+				0593CD401BCDE4A800EC530A /* 0055.公主裙.jpg */,
+				0593CD411BCDE4A800EC530A /* 0056.车模.jpg */,
+				0593CD421BCDE4A800EC530A /* 0057.娇俏.jpg */,
+				0593CD431BCDE4A800EC530A /* 0058.娇俏.jpg */,
+				0593CD441BCDE4A800EC530A /* 0059.徐若瑄.jpg */,
+				0593CD451BCDE4A800EC530A /* 0060.李贞贤.jpg */,
+			);
+			path = photos;
+			sourceTree = "<group>";
+		};
+		0597CDE01BCB5C70004E9108 = {
+			isa = PBXGroup;
+			children = (
+				0597CDEB1BCB5C70004E9108 /* PinTu */,
+				0597CE081BCB5C70004E9108 /* PinTuTests */,
+				0597CE131BCB5C70004E9108 /* PinTuUITests */,
+				0597CDEA1BCB5C70004E9108 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0597CDEA1BCB5C70004E9108 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0597CDE91BCB5C70004E9108 /* PinTu.app */,
+				0597CE051BCB5C70004E9108 /* PinTuTests.xctest */,
+				0597CE101BCB5C70004E9108 /* PinTuUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0597CDEB1BCB5C70004E9108 /* PinTu */ = {
+			isa = PBXGroup;
+			children = (
+				0597CE311BCB80DB004E9108 /* Category */,
+				0597CE2D1BCB8023004E9108 /* Resource */,
+				0597CE2C1BCB8010004E9108 /* Vender */,
+				0597CE2B1BCB8003004E9108 /* Tools */,
+				0597CE291BCB7FCE004E9108 /* Config */,
+				0597CE281BCB7FB8004E9108 /* Model */,
+				0597CE271BCB7FAC004E9108 /* ViewController */,
+				0597CDEF1BCB5C70004E9108 /* AppDelegate.h */,
+				0597CDF01BCB5C70004E9108 /* AppDelegate.m */,
+				0597CDF21BCB5C70004E9108 /* ViewController.h */,
+				0597CDF31BCB5C70004E9108 /* ViewController.m */,
+				0597CDF51BCB5C70004E9108 /* Main.storyboard */,
+				0597CDFB1BCB5C70004E9108 /* Assets.xcassets */,
+				0597CDFD1BCB5C70004E9108 /* LaunchScreen.storyboard */,
+				0597CE001BCB5C70004E9108 /* Info.plist */,
+				0597CE3F1BCB853E004E9108 /* PinTu-Prefix.pch */,
+				0597CDF81BCB5C70004E9108 /* PinTu.xcdatamodeld */,
+				0597CDEC1BCB5C70004E9108 /* Supporting Files */,
+			);
+			path = PinTu;
+			sourceTree = "<group>";
+		};
+		0597CDEC1BCB5C70004E9108 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0597CDED1BCB5C70004E9108 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0597CE081BCB5C70004E9108 /* PinTuTests */ = {
+			isa = PBXGroup;
+			children = (
+				0597CE091BCB5C70004E9108 /* PinTuTests.m */,
+				0597CE0B1BCB5C70004E9108 /* Info.plist */,
+			);
+			path = PinTuTests;
+			sourceTree = "<group>";
+		};
+		0597CE131BCB5C70004E9108 /* PinTuUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0597CE141BCB5C70004E9108 /* PinTuUITests.m */,
+				0597CE161BCB5C70004E9108 /* Info.plist */,
+			);
+			path = PinTuUITests;
+			sourceTree = "<group>";
+		};
+		0597CE271BCB7FAC004E9108 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				051660481BCE55DE00686D80 /* Start */,
+				05C5347B1BCBB90400BE80B6 /* GameLevel */,
+				05C534731BCBB5C400BE80B6 /* Setting */,
+				05C5346C1BCB949E00BE80B6 /* MainGame */,
+				0597CE361BCB82A9004E9108 /* BaseViewController */,
+				0597CE351BCB81E9004E9108 /* HomePage */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		0597CE281BCB7FB8004E9108 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0597CE291BCB7FCE004E9108 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		0597CE2B1BCB8003004E9108 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				0597CE3E1BCB8451004E9108 /* Define.h */,
+				0597CE3B1BCB8427004E9108 /* Helper.h */,
+				0597CE3C1BCB8427004E9108 /* Helper.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		0597CE2C1BCB8010004E9108 /* Vender */ = {
+			isa = PBXGroup;
+			children = (
+				0597CE431BCB89D6004E9108 /* PureLayout */,
+			);
+			path = Vender;
+			sourceTree = "<group>";
+		};
+		0597CE2D1BCB8023004E9108 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				0593CD871BCDE7E300EC530A /* GamePhoto.plist */,
+				0593CD051BCDE4A800EC530A /* Images */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		0597CE311BCB80DB004E9108 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				0597CE321BCB8106004E9108 /* UIImage+SubImage.h */,
+				0597CE331BCB8106004E9108 /* UIImage+SubImage.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		0597CE351BCB81E9004E9108 /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				0597CE401BCB89BA004E9108 /* WYHomePageViewController.h */,
+				0597CE411BCB89BA004E9108 /* WYHomePageViewController.m */,
+			);
+			path = HomePage;
+			sourceTree = "<group>";
+		};
+		0597CE361BCB82A9004E9108 /* BaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0597CE371BCB82D5004E9108 /* WYBaseViewController.h */,
+				0597CE381BCB82D5004E9108 /* WYBaseViewController.m */,
+			);
+			path = BaseViewController;
+			sourceTree = "<group>";
+		};
+		0597CE431BCB89D6004E9108 /* PureLayout */ = {
+			isa = PBXGroup;
+			children = (
+				0597CE441BCB89D6004E9108 /* ALView+PureLayout.h */,
+				0597CE451BCB89D6004E9108 /* ALView+PureLayout.m */,
+				0597CE461BCB89D6004E9108 /* NSArray+PureLayout.h */,
+				0597CE471BCB89D6004E9108 /* NSArray+PureLayout.m */,
+				0597CE481BCB89D6004E9108 /* NSLayoutConstraint+PureLayout.h */,
+				0597CE491BCB89D6004E9108 /* NSLayoutConstraint+PureLayout.m */,
+				0597CE4A1BCB89D6004E9108 /* PureLayout+Internal.h */,
+				0597CE4B1BCB89D6004E9108 /* PureLayout.h */,
+				0597CE4C1BCB89D6004E9108 /* PureLayoutDefines.h */,
+			);
+			path = PureLayout;
+			sourceTree = "<group>";
+		};
+		05C5346C1BCB949E00BE80B6 /* MainGame */ = {
+			isa = PBXGroup;
+			children = (
+				05C5346D1BCB94AC00BE80B6 /* WYMainGameViewController.h */,
+				05C5346E1BCB94AC00BE80B6 /* WYMainGameViewController.m */,
+				05C534701BCB984B00BE80B6 /* WYGameImageView.h */,
+				05C534711BCB984B00BE80B6 /* WYGameImageView.m */,
+			);
+			path = MainGame;
+			sourceTree = "<group>";
+		};
+		05C534731BCBB5C400BE80B6 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				05C534741BCBB5D800BE80B6 /* WYSettingViewController.h */,
+				05C534751BCBB5D800BE80B6 /* WYSettingViewController.m */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		05C5347B1BCBB90400BE80B6 /* GameLevel */ = {
+			isa = PBXGroup;
+			children = (
+				05C5347C1BCBB91400BE80B6 /* WYGameLevelViewController.h */,
+				05C5347D1BCBB91400BE80B6 /* WYGameLevelViewController.m */,
+				05C68FCC1BCDFD7700C57054 /* WYGameLevelCell.h */,
+				05C68FCD1BCDFD7700C57054 /* WYGameLevelCell.m */,
+			);
+			path = GameLevel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0597CDE81BCB5C70004E9108 /* PinTu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0597CE191BCB5C70004E9108 /* Build configuration list for PBXNativeTarget "PinTu" */;
+			buildPhases = (
+				0597CDE51BCB5C70004E9108 /* Sources */,
+				0597CDE61BCB5C70004E9108 /* Frameworks */,
+				0597CDE71BCB5C70004E9108 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PinTu;
+			productName = PinTu;
+			productReference = 0597CDE91BCB5C70004E9108 /* PinTu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0597CE041BCB5C70004E9108 /* PinTuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0597CE1C1BCB5C70004E9108 /* Build configuration list for PBXNativeTarget "PinTuTests" */;
+			buildPhases = (
+				0597CE011BCB5C70004E9108 /* Sources */,
+				0597CE021BCB5C70004E9108 /* Frameworks */,
+				0597CE031BCB5C70004E9108 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0597CE071BCB5C70004E9108 /* PBXTargetDependency */,
+			);
+			name = PinTuTests;
+			productName = PinTuTests;
+			productReference = 0597CE051BCB5C70004E9108 /* PinTuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0597CE0F1BCB5C70004E9108 /* PinTuUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0597CE1F1BCB5C70004E9108 /* Build configuration list for PBXNativeTarget "PinTuUITests" */;
+			buildPhases = (
+				0597CE0C1BCB5C70004E9108 /* Sources */,
+				0597CE0D1BCB5C70004E9108 /* Frameworks */,
+				0597CE0E1BCB5C70004E9108 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0597CE121BCB5C70004E9108 /* PBXTargetDependency */,
+			);
+			name = PinTuUITests;
+			productName = PinTuUITests;
+			productReference = 0597CE101BCB5C70004E9108 /* PinTuUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0597CDE11BCB5C70004E9108 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WY;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = wangyang;
+				TargetAttributes = {
+					0597CDE81BCB5C70004E9108 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					0597CE041BCB5C70004E9108 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 0597CDE81BCB5C70004E9108;
+					};
+					0597CE0F1BCB5C70004E9108 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 0597CDE81BCB5C70004E9108;
+					};
+				};
+			};
+			buildConfigurationList = 0597CDE41BCB5C70004E9108 /* Build configuration list for PBXProject "PinTu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0597CDE01BCB5C70004E9108;
+			productRefGroup = 0597CDEA1BCB5C70004E9108 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0597CDE81BCB5C70004E9108 /* PinTu */,
+				0597CE041BCB5C70004E9108 /* PinTuTests */,
+				0597CE0F1BCB5C70004E9108 /* PinTuUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0597CDE71BCB5C70004E9108 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0593CD661BCDE4A800EC530A /* 0029.人比花艳.jpg in Resources */,
+				0593CD571BCDE4A800EC530A /* 0014.苍井空1.jpg in Resources */,
+				0593CD721BCDE4A800EC530A /* 0041.菊花.jpg in Resources */,
+				0593CD861BCDE4A800EC530A /* um_headview_placeholder@2x.jpg in Resources */,
+				0593CD521BCDE4A800EC530A /* 0009.可爱.jpg in Resources */,
+				0593CD7B1BCDE4A800EC530A /* 0050.韩国车模.jpg in Resources */,
+				0593CD821BCDE4A800EC530A /* 0057.娇俏.jpg in Resources */,
+				0593CD6D1BCDE4A800EC530A /* 0036.LadyGaga.jpg in Resources */,
+				0593CD4E1BCDE4A800EC530A /* 0005.冰冰.jpg in Resources */,
+				0593CD4C1BCDE4A800EC530A /* 0003.林志玲.jpg in Resources */,
+				0593CD7A1BCDE4A800EC530A /* 0049.西洋.jpg in Resources */,
+				0593CD621BCDE4A800EC530A /* 0025.粉嫩可爱.jpg in Resources */,
+				0593CD831BCDE4A800EC530A /* 0058.娇俏.jpg in Resources */,
+				0593CD5E1BCDE4A800EC530A /* 0021.白衣.jpg in Resources */,
+				0593CD771BCDE4A800EC530A /* 0046.sweet.jpg in Resources */,
+				0593CD811BCDE4A800EC530A /* 0056.车模.jpg in Resources */,
+				0593CD5F1BCDE4A800EC530A /* 0022.摄影.jpg in Resources */,
+				0593CD7E1BCDE4A800EC530A /* 0053.微笑.jpg in Resources */,
+				0593CD651BCDE4A800EC530A /* 0028.fwq.jpg in Resources */,
+				0597CDFF1BCB5C70004E9108 /* LaunchScreen.storyboard in Resources */,
+				0593CD7D1BCDE4A800EC530A /* 0052.长椅.jpg in Resources */,
+				0593CD6F1BCDE4A800EC530A /* 0038.angleBaby.jpg in Resources */,
+				0593CD551BCDE4A800EC530A /* 0012.西洋红女.jpg in Resources */,
+				0593CD491BCDE4A800EC530A /* 0000.娇媚.jpg in Resources */,
+				0593CD591BCDE4A800EC530A /* 0016.shishi.jpg in Resources */,
+				0593CD561BCDE4A800EC530A /* 0013.冰冰.jpg in Resources */,
+				0593CD481BCDE4A800EC530A /* navi_back@2x.png in Resources */,
+				0593CD6E1BCDE4A800EC530A /* 0037.Taylor Swift.jpg in Resources */,
+				0593CD6A1BCDE4A800EC530A /* 0033.Scarlett Johansson.jpg in Resources */,
+				0593CD5B1BCDE4A800EC530A /* 0018.萝莉2.jpg in Resources */,
+				0593CD711BCDE4A800EC530A /* 0040.西洋.jpg in Resources */,
+				0593CD511BCDE4A800EC530A /* 0008.西洋美女.jpg in Resources */,
+				0593CD751BCDE4A800EC530A /* 0044.屋顶.jpg in Resources */,
+				0593CD581BCDE4A800EC530A /* 0015.凃唇.jpg in Resources */,
+				0593CD851BCDE4A800EC530A /* 0060.李贞贤.jpg in Resources */,
+				0593CD791BCDE4A800EC530A /* 0048.允儿.jpg in Resources */,
+				0597CDFC1BCB5C70004E9108 /* Assets.xcassets in Resources */,
+				0593CD4B1BCDE4A800EC530A /* 0002.含指.jpg in Resources */,
+				0593CD471BCDE4A800EC530A /* navi_back.png in Resources */,
+				0593CD701BCDE4A800EC530A /* 0039.章子怡.jpg in Resources */,
+				0593CD6C1BCDE4A800EC530A /* 0035.街道.jpg in Resources */,
+				0593CD641BCDE4A800EC530A /* 0027.dance.jpg in Resources */,
+				0593CD5D1BCDE4A800EC530A /* 0020.韩国.jpg in Resources */,
+				0593CD531BCDE4A800EC530A /* 0010.awer.jpg in Resources */,
+				0593CD841BCDE4A800EC530A /* 0059.徐若瑄.jpg in Resources */,
+				0593CD611BCDE4A800EC530A /* 0024.古典.jpg in Resources */,
+				0593CD5A1BCDE4A800EC530A /* 0017.白鸽.jpg in Resources */,
+				0593CD6B1BCDE4A800EC530A /* 0034.laugh.jpg in Resources */,
+				0593CD801BCDE4A800EC530A /* 0055.公主裙.jpg in Resources */,
+				0593CD691BCDE4A800EC530A /* 0032.半遮眼.jpg in Resources */,
+				0593CD501BCDE4A800EC530A /* 0007.高雅.jpg in Resources */,
+				0593CD4D1BCDE4A800EC530A /* 0004.车模.jpg in Resources */,
+				0593CD4A1BCDE4A800EC530A /* 0001.半遮脸.jpg in Resources */,
+				0593CD881BCDE7E300EC530A /* GamePhoto.plist in Resources */,
+				0593CD631BCDE4A800EC530A /* 0026.西洋.jpg in Resources */,
+				0593CD681BCDE4A800EC530A /* 0031.朋克女.jpg in Resources */,
+				0593CD741BCDE4A800EC530A /* 0043.闻花.jpg in Resources */,
+				0593CD7F1BCDE4A800EC530A /* 0054.zhaowei.jpg in Resources */,
+				0593CD7C1BCDE4A800EC530A /* 0051.水手.jpg in Resources */,
+				0593CD541BCDE4A800EC530A /* 0011.车模.jpg in Resources */,
+				0597CDF71BCB5C70004E9108 /* Main.storyboard in Resources */,
+				0593CD761BCDE4A800EC530A /* 0045.邻家女孩.jpg in Resources */,
+				0593CD781BCDE4A800EC530A /* 0047.车模.jpg in Resources */,
+				0593CD671BCDE4A800EC530A /* 0030.高圆圆.jpg in Resources */,
+				0593CD5C1BCDE4A800EC530A /* 0019.清纯.jpg in Resources */,
+				0593CD4F1BCDE4A800EC530A /* 0006.短牛仔.jpg in Resources */,
+				0593CD731BCDE4A800EC530A /* 0042.白衣.jpg in Resources */,
+				0593CD601BCDE4A800EC530A /* 0023.车模.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0597CE031BCB5C70004E9108 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0597CE0E1BCB5C70004E9108 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0597CDE51BCB5C70004E9108 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0597CE341BCB8106004E9108 /* UIImage+SubImage.m in Sources */,
+				05C534761BCBB5D800BE80B6 /* WYSettingViewController.m in Sources */,
+				0597CE391BCB82D5004E9108 /* WYBaseViewController.m in Sources */,
+				05C5347E1BCBB91400BE80B6 /* WYGameLevelViewController.m in Sources */,
+				0516604B1BCE55FB00686D80 /* WYStartViewController.m in Sources */,
+				0597CE421BCB89BA004E9108 /* WYHomePageViewController.m in Sources */,
+				0597CDF41BCB5C70004E9108 /* ViewController.m in Sources */,
+				0597CE4F1BCB89D6004E9108 /* NSLayoutConstraint+PureLayout.m in Sources */,
+				0597CE4E1BCB89D6004E9108 /* NSArray+PureLayout.m in Sources */,
+				05C534721BCB984B00BE80B6 /* WYGameImageView.m in Sources */,
+				0597CE4D1BCB89D6004E9108 /* ALView+PureLayout.m in Sources */,
+				0597CDF11BCB5C70004E9108 /* AppDelegate.m in Sources */,
+				0597CE3D1BCB8427004E9108 /* Helper.m in Sources */,
+				0597CDFA1BCB5C70004E9108 /* PinTu.xcdatamodeld in Sources */,
+				0597CDEE1BCB5C70004E9108 /* main.m in Sources */,
+				05C68FCE1BCDFD7700C57054 /* WYGameLevelCell.m in Sources */,
+				05C5346F1BCB94AC00BE80B6 /* WYMainGameViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0597CE011BCB5C70004E9108 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0597CE0A1BCB5C70004E9108 /* PinTuTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0597CE0C1BCB5C70004E9108 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0597CE151BCB5C70004E9108 /* PinTuUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0597CE071BCB5C70004E9108 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0597CDE81BCB5C70004E9108 /* PinTu */;
+			targetProxy = 0597CE061BCB5C70004E9108 /* PBXContainerItemProxy */;
+		};
+		0597CE121BCB5C70004E9108 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0597CDE81BCB5C70004E9108 /* PinTu */;
+			targetProxy = 0597CE111BCB5C70004E9108 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0597CDF51BCB5C70004E9108 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0597CDF61BCB5C70004E9108 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0597CDFD1BCB5C70004E9108 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0597CDFE1BCB5C70004E9108 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0597CE171BCB5C70004E9108 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0597CE181BCB5C70004E9108 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0597CE1A1BCB5C70004E9108 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "/Users/xielida/Desktop/WorkProject/MyProject/pin tu/PinTu/PinTu/PinTu-Prefix.pch";
+				INFOPLIST_FILE = PinTu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangyang.PinTu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0597CE1B1BCB5C70004E9108 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "/Users/xielida/Desktop/WorkProject/MyProject/pin tu/PinTu/PinTu/PinTu-Prefix.pch";
+				INFOPLIST_FILE = PinTu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangyang.PinTu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0597CE1D1BCB5C70004E9108 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PinTuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangyang.PinTuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PinTu.app/PinTu";
+			};
+			name = Debug;
+		};
+		0597CE1E1BCB5C70004E9108 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PinTuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangyang.PinTuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PinTu.app/PinTu";
+			};
+			name = Release;
+		};
+		0597CE201BCB5C70004E9108 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PinTuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangyang.PinTuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PinTu;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		0597CE211BCB5C70004E9108 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PinTuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangyang.PinTuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PinTu;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0597CDE41BCB5C70004E9108 /* Build configuration list for PBXProject "PinTu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0597CE171BCB5C70004E9108 /* Debug */,
+				0597CE181BCB5C70004E9108 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0597CE191BCB5C70004E9108 /* Build configuration list for PBXNativeTarget "PinTu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0597CE1A1BCB5C70004E9108 /* Debug */,
+				0597CE1B1BCB5C70004E9108 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0597CE1C1BCB5C70004E9108 /* Build configuration list for PBXNativeTarget "PinTuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0597CE1D1BCB5C70004E9108 /* Debug */,
+				0597CE1E1BCB5C70004E9108 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0597CE1F1BCB5C70004E9108 /* Build configuration list for PBXNativeTarget "PinTuUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0597CE201BCB5C70004E9108 /* Debug */,
+				0597CE211BCB5C70004E9108 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		0597CDF81BCB5C70004E9108 /* PinTu.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0597CDF91BCB5C70004E9108 /* PinTu.xcdatamodel */,
+			);
+			currentVersion = 0597CDF91BCB5C70004E9108 /* PinTu.xcdatamodel */;
+			path = PinTu.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 0597CDE11BCB5C70004E9108 /* Project object */;
+}

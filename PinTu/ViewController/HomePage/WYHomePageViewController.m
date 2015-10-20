@@ -40,6 +40,9 @@ typedef NS_ENUM(NSUInteger, HomePageButton) {
     [self.view addSubview:self.successRecordButton];
     
     [self.view setNeedsUpdateConstraints];
+    
+    
+    
 }
 
 - (void)updateViewConstraints
@@ -149,6 +152,20 @@ typedef NS_ENUM(NSUInteger, HomePageButton) {
         default:
             break;
     }
+}
+
+- (void)startGame
+{
+    WYMainGameViewController *mainGameVC = [[WYMainGameViewController alloc] init];
+    
+    [self.navigationController pushViewController:mainGameVC animated:YES];
+}
+
+- (void)gameLevel
+{
+    WYGameLevelViewController *gameLevelVC = [[WYGameLevelViewController alloc] init];
+    
+    [self.navigationController pushViewController:gameLevelVC animated:YES];
 }
 
 - (void)didReceiveMemoryWarning {

@@ -20,6 +20,15 @@
 @implementation AppDelegate
 
 #pragma mark - 懒加载
+- (UINavigationController *)homeNav
+{
+    if(!_homeNav)
+    {
+        _homeNav = [[UINavigationController alloc] initWithRootViewController:[[WYHomePageViewController alloc] init]];
+    }
+    return _homeNav;
+}
+
 - (UILabel *)titleLabel
 {
     if(!_titleLabel)
@@ -93,15 +102,34 @@
     [self.titleLabel removeFromSuperview];
     [self.imgView removeFromSuperview];
     
-    WYHomePageViewController *homePageVC = [[WYHomePageViewController alloc] init];
+//    WYHomePageViewController *homePageVC = [[WYHomePageViewController alloc] init];
+//    
+//    UINavigationController *homePageNav = [[UINavigationController alloc] initWithRootViewController:homePageVC];
     
-    UINavigationController *homePageNav = [[UINavigationController alloc] initWithRootViewController:homePageVC];
-    
-    self.window.rootViewController = homePageNav;
+    self.window.rootViewController = self.homeNav;
 }
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+//    dispatch_async(dispatch_get_global_queue(0, 0), ^{
+//        
+//        NSLog(@"任务1");
+//        dispatch_sync(dispatch_get_main_queue(), ^{
+//            
+//            NSLog(@"任务2");
+//        });
+//        
+//        NSLog(@"任务3");
+//    });
+//    NSLog(@"任务4");
+////    while (1) {
+////        
+////    }
+//    
+//    NSLog(@"任务5");
+//    
+//    return YES;
     
     NSLog(@"%@", NSHomeDirectory());
     
@@ -143,6 +171,30 @@
 //    [self startAnimation];
     
     return YES;
+}
+
+- (void)application:(UIApplication *)application performActionForShortcutItem:(UIApplicationShortcutItem *)shortcutItem completionHandler:(void (^)(BOOL))completionHandler
+{
+    if([shortcutItem.type isEqualToString:@"com.wangyang.PinTu.startgame"])
+    {
+        WYHomePageViewController *homePageVC = [[WYHomePageViewController alloc] init];
+        
+        UINavigationController *homePageNav = [[UINavigationController alloc] initWithRootViewController:homePageVC];
+        
+        self.window.rootViewController = homePageNav;
+  
+        [homePageVC startGame];
+    }
+    else if([shortcutItem.type isEqualToString:@"com.wangyang.PinTu.gamelevel"])
+    {
+        WYHomePageViewController *homePageVC = [[WYHomePageViewController alloc] init];
+        
+        UINavigationController *homePageNav = [[UINavigationController alloc] initWithRootViewController:homePageVC];
+        
+        self.window.rootViewController = homePageNav;
+        
+        [homePageVC gameLevel];
+    }
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {

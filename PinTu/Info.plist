@@ -2,6 +2,35 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>UIApplicationShortcutItems</key>
+	<array>
+		<dict>
+			<key>UIApplicationShortcutItemIconType</key>
+			<string>UIApplicationShortcutIconTypePlay</string>
+			<key>UIApplicationShortcutItemTitle</key>
+			<string>开始游戏</string>
+			<key>UIApplicationShortcutItemType</key>
+			<string>com.wangyang.PinTu.startgame</string>
+			<key>UIApplicationShortcutItemUserInfo</key>
+			<dict>
+				<key>key1</key>
+				<string>value1</string>
+			</dict>
+		</dict>
+        <dict>
+            <key>UIApplicationShortcutItemIconType</key>
+            <string>UIApplicationShortcutIconTypeCompose</string>
+            <key>UIApplicationShortcutItemTitle</key>
+            <string>游戏关卡</string>
+            <key>UIApplicationShortcutItemType</key>
+            <string>com.wangyang.PinTu.gamelevel</string>
+            <key>UIApplicationShortcutItemUserInfo</key>
+            <dict>
+                <key>key1</key>
+                <string>value1</string>
+            </dict>
+        </dict>
+	</array>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>

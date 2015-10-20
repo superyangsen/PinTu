@@ -29,7 +29,7 @@
     [self setNavgationBarTitle:@"游戏关卡"];
     [self setBackBtnTitle:nil imageStr:nil];
     
-    [self.view addSubview:self.scrollView];
+    [self.view addSubview:self.collectionView];
 }
 
 #pragma mark - 懒加载
@@ -46,18 +46,21 @@
         
         CGFloat space = DEVICE_SIZE.height - 64 - itemHeight * ycount;
         
-        CGFloat heightSpace = space / (ycount + 1);
+        CGFloat heightSpace = 10;;
         
-        if(heightSpace < 5)
+        if(heightSpace * (ycount + 1) > space)
         {
             ycount--;
             space = DEVICE_SIZE.height - 64 - itemHeight * ycount;
-            heightSpace = space / (ycount + 1);
+//            heightSpace = space / (ycount + 1);
         }
         
+        CGFloat bottomSpace = space - heightSpace * (ycount + 1);
+        
+        layout.sectionInset = UIEdgeInsetsMake(10, widthSpace / 2.0f, bottomSpace, widthSpace / 2.0f);
         layout.minimumLineSpacing = widthSpace;
-        layout.minimumInteritemSpacing = heightSpace;
-        layout.sectionInset = UIEdgeInsetsMake(heightSpace, widthSpace / 2.0f, heightSpace, widthSpace / 2.0f);
+        layout.minimumInteritemSpacing = 10;
+        
         layout.scrollDirection = UICollectionViewScrollDirectionHorizontal;
         
         
@@ -110,11 +113,8 @@
             
             NSString *fileName = [photoDict objectForKey:[NSString stringWithFormat:@"%04d", i]];
             NSString *filePath = [NSString stringWithFormat:@"%@/%@", thumbailPath, fileName];
-            
-            NSData *thumbailImageData = [NSData dataWithContentsOfFile:filePath];
-            UIImage *thumbailImage = [UIImage imageWithData:thumbailImageData];
 
-            [_dataArray addObject:thumbailImage];
+            [_dataArray addObject:filePath];
         }
     }
     return _dataArray;
@@ -210,7 +210,10 @@
 {
     WYGameLevelCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"cell" forIndexPath:indexPath];
     
-    cell.imgView.image = [self.dataArray objectAtIndex:indexPath.row];
+    NSData *thumbailImageData = [NSData dataWithContentsOfFile:[self.dataArray objectAtIndex:indexPath.row]];
+    UIImage *thumbailImage = [UIImage imageWithData:thumbailImageData];
+    
+    cell.imgView.image = thumbailImage;
     
     return cell;
 }

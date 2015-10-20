@@ -34,7 +34,7 @@
     {
         _titleLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, DEVICE_SIZE.height * 0.2, DEVICE_SIZE.width, 40)];
         
-//        _titleLabel.hidden = YES;
+
         _titleLabel.textAlignment = NSTextAlignmentCenter;
         _titleLabel.text = @"益智拼图";
         _titleLabel.font = [UIFont boldSystemFontOfSize:20];

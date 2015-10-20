@@ -10,4 +10,8 @@
 
 @interface WYHomePageViewController : WYBaseViewController
 
+- (void)startGame;
+
+- (void)gameLevel;
+
 @end

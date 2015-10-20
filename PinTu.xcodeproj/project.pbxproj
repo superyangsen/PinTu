@@ -94,6 +94,7 @@
 		05C534761BCBB5D800BE80B6 /* WYSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05C534751BCBB5D800BE80B6 /* WYSettingViewController.m */; settings = {ASSET_TAGS = (); }; };
 		05C5347E1BCBB91400BE80B6 /* WYGameLevelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05C5347D1BCBB91400BE80B6 /* WYGameLevelViewController.m */; settings = {ASSET_TAGS = (); }; };
 		05C68FCE1BCDFD7700C57054 /* WYGameLevelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 05C68FCD1BCDFD7700C57054 /* WYGameLevelCell.m */; settings = {ASSET_TAGS = (); }; };
+		0E65C0D5DFA3DEEDE76F0A2A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CB7EDB2E8C92BB498ADA87D2 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -227,6 +228,9 @@
 		05C5347D1BCBB91400BE80B6 /* WYGameLevelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYGameLevelViewController.m; sourceTree = "<group>"; };
 		05C68FCC1BCDFD7700C57054 /* WYGameLevelCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYGameLevelCell.h; sourceTree = "<group>"; };
 		05C68FCD1BCDFD7700C57054 /* WYGameLevelCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYGameLevelCell.m; sourceTree = "<group>"; };
+		3E0C6A20D48716D2FD2D8201 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		A4E1ACC03D09CB08CE079FFF /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		CB7EDB2E8C92BB498ADA87D2 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -234,6 +238,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E65C0D5DFA3DEEDE76F0A2A /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,6 +354,8 @@
 				0597CE081BCB5C70004E9108 /* PinTuTests */,
 				0597CE131BCB5C70004E9108 /* PinTuUITests */,
 				0597CDEA1BCB5C70004E9108 /* Products */,
+				519B7422749564E9CD4BC3B3 /* Pods */,
+				258676D2A7A43F39F8E3E7EA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -541,6 +548,23 @@
 			path = GameLevel;
 			sourceTree = "<group>";
 		};
+		258676D2A7A43F39F8E3E7EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB7EDB2E8C92BB498ADA87D2 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		519B7422749564E9CD4BC3B3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A4E1ACC03D09CB08CE079FFF /* Pods.debug.xcconfig */,
+				3E0C6A20D48716D2FD2D8201 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -548,9 +572,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0597CE191BCB5C70004E9108 /* Build configuration list for PBXNativeTarget "PinTu" */;
 			buildPhases = (
+				085CE91DB6000DC22058ED3E /* Check Pods Manifest.lock */,
 				0597CDE51BCB5C70004E9108 /* Sources */,
 				0597CDE61BCB5C70004E9108 /* Frameworks */,
 				0597CDE71BCB5C70004E9108 /* Resources */,
+				3E14CC40CE4CA41A53BAE607 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -732,6 +758,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		085CE91DB6000DC22058ED3E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3E14CC40CE4CA41A53BAE607 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0597CDE51BCB5C70004E9108 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -890,6 +949,7 @@
 		};
 		0597CE1A1BCB5C70004E9108 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4E1ACC03D09CB08CE079FFF /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PREFIX_HEADER = "/Users/xielida/Desktop/WorkProject/MyProject/pin tu/PinTu/PinTu/PinTu-Prefix.pch";
@@ -902,6 +962,7 @@
 		};
 		0597CE1B1BCB5C70004E9108 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E0C6A20D48716D2FD2D8201 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PREFIX_HEADER = "/Users/xielida/Desktop/WorkProject/MyProject/pin tu/PinTu/PinTu/PinTu-Prefix.pch";

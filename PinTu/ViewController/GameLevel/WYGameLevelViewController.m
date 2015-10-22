@@ -9,6 +9,7 @@
 #import "WYGameLevelViewController.h"
 #import "WYMainGameViewController.h"
 #import "WYGameLevelCell.h"
+#import <UIImageView+WebCache.h>
 
 @interface WYGameLevelViewController ()
 <UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout>
@@ -116,6 +117,10 @@
 
             [_dataArray addObject:filePath];
         }
+        
+//        NSArray *arr = [[NSBundle mainBundle] pathsForResourcesOfType:@"jpg" inDirectory:nil];
+//        
+//        [_dataArray addObjectsFromArray:arr];
     }
     return _dataArray;
 }
@@ -210,10 +215,11 @@
 {
     WYGameLevelCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"cell" forIndexPath:indexPath];
     
-    NSData *thumbailImageData = [NSData dataWithContentsOfFile:[self.dataArray objectAtIndex:indexPath.row]];
-    UIImage *thumbailImage = [UIImage imageWithData:thumbailImageData];
+    NSString *imagePath = [self.dataArray objectAtIndex:indexPath.row];
+    NSURL *imageURL = [NSURL fileURLWithPath:imagePath isDirectory:YES];
     
-    cell.imgView.image = thumbailImage;
+    
+    [cell.imgView sd_setImageWithURL:imageURL placeholderImage:[UIImage imageNamed:@""]];
     
     return cell;
 }

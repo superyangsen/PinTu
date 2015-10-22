@@ -46,7 +46,7 @@
 {
     if(!_imgView)
     {
-        _imgView = [[UIImageView alloc] initWithFrame:CGRectMake(DEVICE_SIZE.width / 2 - 50, DEVICE_SIZE.height * 0.5 - 50, 100, 100)];
+        _imgView = [[UIImageView alloc] initWithFrame:CGRectMake(DEVICE_SIZE.width / 2 - 100, DEVICE_SIZE.height * 0.5 - 100, 200, 200)];
         _imgView.image = [UIImage imageNamed:@"0060.李贞贤.jpg"];
     }
     return _imgView;
